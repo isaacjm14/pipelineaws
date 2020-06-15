@@ -1,0 +1,29 @@
+pipeline{
+	agent any
+	
+	stages{
+		stage('Compilando el escenario'){
+			steps{			
+				withMaven(maven : 'maven'){
+				sh 'mvn clean compile'
+				}
+			}
+		}
+		
+		stage('Testear el escenario'){
+			steps{			
+				withMaven(maven : 'maven'){
+				sh 'mvn test'
+				}
+			}
+		}
+		
+		stage('Desplegar el escenario'){
+			steps{			
+				withMaven(maven : 'maven'){
+				sh 'mvn deploy'
+				}
+			}
+		}
+	}
+}

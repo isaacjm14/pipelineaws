@@ -1,0 +1,10 @@
+com\retofullstack\microserviciospringboot\entity\Cliente$ClienteBuilder.class
+com\retofullstack\microserviciospringboot\service\ClienteServiceImpl.class
+com\retofullstack\microserviciospringboot\MicroServicioSpringBootApplication.class
+com\retofullstack\microserviciospringboot\entity\Cliente.class
+com\retofullstack\microserviciospringboot\entity\KpiCliente$KpiClienteBuilder.class
+com\retofullstack\microserviciospringboot\service\ClienteService.class
+com\retofullstack\microserviciospringboot\controller\ClienteController.class
+com\retofullstack\microserviciospringboot\entity\KpiCliente.class
+com\retofullstack\microserviciospringboot\repository\ClienteRepository.class
+com\retofullstack\microserviciospringboot\config\SwaggerConfig.class
